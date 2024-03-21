@@ -46,7 +46,7 @@ function App({ url, page, limit }) {
     setCurrentSlide(currentSlide === image.length - 1 ? 0 : currentSlide + 1)
   }
   return (
-    <div className="container">
+    <div className=" flex relative justify-center items-center w-[600px] h-[450px]">
       <BsArrowLeftCircleFill
         className=" arrow arrow-left"
         onClick={handlePrevious}
