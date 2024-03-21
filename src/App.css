@@ -1,17 +1,4 @@
-.container {
-  position: relative;
-  display: flex;
 
-  justify-content: center;
-  align-items: center;
-  width: 500px;
-  height: 250px;
-  background: linear-gradient(
-    to right,
-    #ff9966,
-    #ff5e62
-  ); /* Gradient Background */
-}
 
 .current-image {
   border-radius: 1rem; /* Increased Border Radius */
